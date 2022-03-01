@@ -4,8 +4,6 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-//백준 2675
-//풀이
 public class Main {
 
     public static void main(String[] args) throws Exception {
