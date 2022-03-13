@@ -20,14 +20,11 @@ public class Main {
 
         for(int i=1; i<=n; i++){
             arr[i] = Integer.parseInt(arr_num.nextToken());
-        }
-
-        for(int i=0; i<=n; i++){
-            if(i==0) sumArr[i] = 0;
-            else sumArr[i] = sumArr[i-1]+arr[i];
+            sumArr[i] = sumArr[i-1]+arr[i];
         }
 
         StringTokenizer around_num;
+
         for(int i=0; i<m; i++){
             around_num = new StringTokenizer(br.readLine(), " ");
 
