@@ -31,7 +31,7 @@ public class Main {
 
         if(plus_tmp == 8){
             result = "ascending";
-        }else if(minus_tmp == 8){
+        }else if(minus_tmp == 8){z
             result = "descending";
         }
 
