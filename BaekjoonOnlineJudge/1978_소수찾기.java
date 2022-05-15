@@ -30,7 +30,6 @@ public class Main {
         }
 
         int count = 0;
-
         for(int i=0; i<arr.length; i++){
             if(arr[i] == 0 || arr[i] == 1) continue;
             if(!booleanArray[arr[i]]){
