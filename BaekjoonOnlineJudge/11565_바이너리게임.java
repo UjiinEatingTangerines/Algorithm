@@ -14,11 +14,11 @@ public class Main {
         int sumB = 0;
 
         for (int i = 0; i < a.length(); i++) {
-            sumA += Integer.parseInt(String.valueOf(a.charAt(i)));
+            sumA += a.charAt(i) - '0';
         }
 
         for (int i = 0; i < b.length(); i++) {
-            sumB += Integer.parseInt(String.valueOf(b.charAt(i)));
+            sumB += b.charAt(i) - '0';
         }
 
         if(sumA >= sumB) bw.write("VICTORY");
